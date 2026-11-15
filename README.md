@@ -42,7 +42,7 @@ On Windows, activate the environment with `.venv\Scripts\activate` instead.
 
 ## Deploy on Streamlit Community Cloud
 
-Upload `README.md`, `.gitignore`, `app.py`, `requirements.txt`, `world_countries.geojson`, and the complete `data/` folder to a GitHub repository. In Streamlit Community Cloud, select that repository and set the main file path to `app.py`. The service installs packages listed in `requirements.txt`.
+Upload `README.md`, `LICENSE`, `.gitignore`, `app.py`, `requirements.txt`, `world_countries.geojson`, and the complete `data/` folder to a GitHub repository. In Streamlit Community Cloud, select that repository and set the main file path to `app.py`. The service installs packages listed in `requirements.txt`.
 
 ## Data and interpretation
 
@@ -56,6 +56,12 @@ Known source limitations are shown in the app, including unverified pressure uni
 
 - [NASA MERRA-2 documentation](https://gmao.gsfc.nasa.gov/gmaoftp/mikeb/Harvey/MERRA2.README.pdf)
 - [NASA GLDAS model output](https://ldas.gsfc.nasa.gov/gldas/model-output)
+- [Natural Earth map data](https://www.naturalearthdata.com/about/terms-of-use/)
 - The CSV files include NASA Giovanni reproduction links where available. Country climate context links are displayed in the app.
 
 Earth Clues is an independent project and is not an official NASA product.
+
+## License
+
+The original application code and documentation are released under the [MIT License](LICENSE). The NASA-derived CSV files in `data/` and Natural Earth-derived `world_countries.geojson` retain their respective source terms; the MIT license does not relicense those third-party materials. See the source links above and the reproduction links in the CSV files.
+
