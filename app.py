@@ -1,5 +1,4 @@
-# -*- coding: utf-8 -*-
-# Complete app: save as app.py beside the data folder.
+
 import csv
 import tempfile
 import zipfile
